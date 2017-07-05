@@ -1,7 +1,7 @@
 package vip.frendy.charts
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import android.support.v4.app.FragmentActivity
 import com.github.abel533.echarts.axis.CategoryAxis
 import com.github.abel533.echarts.axis.ValueAxis
 import com.github.abel533.echarts.code.Symbol
@@ -12,9 +12,10 @@ import com.github.abel533.echarts.json.GsonOption
 import com.github.abel533.echarts.series.Line
 import com.github.abel533.echarts.series.Pie
 import kotlinx.android.synthetic.main.activity_main.*
+import org.jetbrains.anko.startActivity
 import vip.frendy.chart.EChartWebView
 
-class MainActivity : AppCompatActivity(), EChartWebView.DataSource {
+class MainActivity : FragmentActivity(), EChartWebView.DataSource {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,6 +23,8 @@ class MainActivity : AppCompatActivity(), EChartWebView.DataSource {
 
         chartView.setType(1)
         chartView.setDataSource(this)
+
+        button.setOnClickListener { startActivity<DemoActivity>() }
     }
 
     override fun markChartOptions(): GsonOption {

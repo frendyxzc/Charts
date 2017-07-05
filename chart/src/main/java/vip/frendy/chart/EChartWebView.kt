@@ -9,7 +9,7 @@ import android.widget.Toast
 import com.github.abel533.echarts.json.GsonOption
 
 /**
- * Created by iiMedia on 2017/7/4.
+ * Created by frendy on 2017/7/4.
  */
 class EChartWebView @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0)
     : WebView(context, attrs, defStyleAttr) {
