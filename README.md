@@ -22,7 +22,7 @@ allprojects {
 
 ```
 dependencies {
-	compile 'com.github.frendyxzc:Charts:v0.0.1'
+	compile 'com.github.frendyxzc:Charts:0.0.2'
 }
 ```
 

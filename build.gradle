@@ -13,6 +13,7 @@ buildscript {
     ext.gson_version = '2.8.0'
     ext.glide_version = '3.7.0'
     ext.echarts_version = '3.0.0.2'
+    ext.charts_version = '0.0.2'
 
     repositories {
         jcenter()
@@ -30,6 +31,7 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
+        maven { url 'https://jitpack.io' }
     }
 }
 
