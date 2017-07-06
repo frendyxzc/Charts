@@ -124,3 +124,10 @@ function load() {
 
 * Wrap with Kotlin DSL
 * ...
+
+-----
+
+## More info:
+
+* [轻松实现 Android 图表 • ECharts](http://www.jianshu.com/p/e13da6f85927)
+
