@@ -1,5 +1,9 @@
 # AndroidCharts
+
+[![](https://jitpack.io/v/frendyxzc/Charts.svg)](https://jitpack.io/#frendyxzc/Charts)
+
 Android Charts base on ECharts
+
 
 ## Demo:
 
